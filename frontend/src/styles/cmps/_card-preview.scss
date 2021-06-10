@@ -1,0 +1,157 @@
+.card-preview {
+    .fullcover-title {
+        min-height: 46px;
+        &:hover {
+            background-color: #f4f5f7;
+            border-bottom-color: rgba(9, 30, 66, .25);
+            .edit-btn {
+                display: flex;
+            }
+        }
+        span {
+            font-size: 16px;
+            line-height: 20px;
+            margin-bottom: 0;
+            padding-bottom: 8px;
+            font-weight: 500;
+            clear: both;
+            display: block;
+            margin: 0 0 4px;
+            overflow: hidden;
+            text-decoration: none;
+            word-wrap: break-word;
+            color: #172b4d;
+            align-self: flex-end;
+            width: 100%;
+            overflow: hidden;
+            padding: 6px 8px 2px;
+        }
+    }
+    position: relative;
+    margin: 0 auto 1px;
+    cursor: pointer;
+    box-shadow: 0 0 3px 0 black;
+    width: 280px;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0 1px 0 rgba(9, 30, 66, .25);
+    overflow: hidden;
+    .description {
+        overflow-wrap: break-word;
+        max-height: 15ch;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: block;
+    }
+    &:not(:last-of-type) {
+        margin-block-end: 8px;
+    }
+    .edit-btn {
+        display: none;
+        position: absolute;
+        top: 1.5px;
+        right: 2px;
+        font-size: 10px;
+        color: #42526e;
+        border-radius: 3px;
+        width: 29px;
+        height: 29px;
+        background-color: rgba(244, 245, 247, 0.5);
+        &:hover {
+            background-color: rgba(226, 228, 233, 0.7);
+        }
+        img {
+            width: 13px;
+        }
+    }
+    &:hover {
+        background-color: #f4f5f7;
+        border-bottom-color: rgba(9, 30, 66, .25);
+        .edit-btn {
+            display: flex;
+        }
+    }
+    .card-header {
+        border-radius: 3px 3px 0 0;
+        width: 100%;
+        height: 33px;
+    }
+    .card-info {
+        color: #172b4dd2;
+        padding: 6px 8px 0;
+        .label-marks {
+            div {
+                display: flex;
+                justify-content: flex-start;
+                min-height: 8px;
+                width: 40px;
+                border-radius: 4px;
+                margin-inline-end: 8px;
+                margin-block-end: 4px;
+            }
+        }
+        .attachment {
+            img {
+                border-radius: 2px;
+            }
+        }
+    }
+    .icons {
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 5px 3px;
+        .description-icon img {
+            width: 13px;
+        }
+        fa-paperclip {
+            padding: 0;
+        }
+        .checklist-icon {
+            &.complete {
+                background-color: #5aac44;
+                color: white;
+                height: 24px;
+                padding: 6px;
+                /* align-self: center; */
+                display: flex;
+                align-items: center;
+                font-size: 12px;
+                .gcheck path {
+                    fill: white;
+                }
+            }
+            img {
+                width: 13px;
+            }
+        }
+        .comments-icon {
+            width: 26px;
+        }
+        i {
+            margin-inline-end: 5px;
+            padding: 6px;
+            border-radius: 5px;
+            span {
+                font-family: 'Segoe UI', Helvetica, mont, Calibri, sans-serif;
+                letter-spacing: normal;
+            }
+        }
+        .members-container {
+            flex: 1;
+            justify-content: flex-end;
+            .card-members {
+                margin: 0 -2px 0;
+                border-radius: 50%;
+                box-shadow: 0 0 2px 0.5px rgba(255, 255, 255, 0.6);
+            }
+        }
+        >* {
+            font-size: 0.8em;
+            align-self: center;
+            color: rgb(71, 71, 71);
+            margin: 0 2px;
+            margin-block-end: 5px;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.dashboard {
+    display: block;
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 120px);
+    height: calc(100% - 120px);
+    background-color: rgba(34, 34, 39, .95);
+    box-shadow: 0 0 8px rgba(0, 0, 0, .488);
+    z-index: 7;
+    padding: 25px;
+    border-radius: 5px;
+    color: #fff;
+}

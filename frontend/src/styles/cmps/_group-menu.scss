@@ -1,0 +1,94 @@
+.group-menu {
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 8px 16px -4px rgba(9, 30, 66, .25), 0 0 0 1px rgba(9, 30, 66, .08);
+    overflow: hidden;
+    position: absolute;
+    width: 290px;
+    top: 45px;
+    left: 275px;
+    z-index: 70;
+    font-family: 'Segoe UI', Helvetica, mont, Calibri, sans-serif;
+    letter-spacing: normal;
+    .close-btn,
+    .back-btn {
+        height: 20px;
+        font-size: 16px;
+        line-height: 20px;
+        width: 20px;
+        color: #6b778c;
+        padding: 10px 12px 10px 8px;
+        position: absolute;
+        top: 0;
+        right: 15px;
+        z-index: 2;
+        &:hover {
+            color: #172b4d;
+        }
+    }
+    .back-btn {
+        left: 15px;
+    }
+    .header-container {
+        width: 100%;
+        text-align: center;
+        .header {
+            cursor: auto;
+            color: #5e6c84;
+            display: block;
+            line-height: 40px;
+            border-bottom: 1px solid rgba(9, 30, 66, .13);
+            margin: 0 12px;
+            overflow: hidden;
+            padding: 0 32px;
+            position: relative;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            z-index: 1;
+        }
+    }
+    .content-container {
+        padding: 0 12px 12px;
+    }
+    .content-container {
+        padding: 0 12px 12px;
+        div {
+            cursor: pointer;
+            font-weight: 400;
+            padding: 6px 12px;
+            position: relative;
+            margin: 0 -12px;
+            text-decoration: none;
+            color: rgba(23, 43, 77, 0.85);
+            &:not(.content):hover {
+                background-color: rgba(9, 30, 66, 0.08);
+                color: rgba(9, 30, 66, 0.85);
+            }
+        }
+        .move-select {
+            width: 120px;
+            margin-inline-start: 30px;
+        }
+    }
+    hr {
+        background-color: rgba(9, 30, 66, .13);
+        border: 0;
+        height: 1px;
+        margin: 16px 0;
+        padding: 0;
+        width: 100%;
+        margin: 8px 0;
+    }
+    .el-input.el-input--suffix {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .el-input__inner {
+            padding: 0 15px;
+            text-align: center;
+        }
+    }
+    .el-select__caret.el-input__icon.el-icon-arrow-up {
+        display: none;
+    }
+}

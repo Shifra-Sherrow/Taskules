@@ -1,0 +1,155 @@
+.card-menu-edit {
+    position: absolute;
+    z-index: 1;
+    height: 200px;
+    padding: 15px;
+    left: 500px;
+    top: 100px;
+    &.rtl {
+        flex-direction: row-reverse;
+        .edit-card-actions {
+            align-items: flex-end;
+            .action-btn {
+                margin: 0 8px 4px 0;
+                &.no-popup:hover {
+                    transform: translateX(-5px);
+                }
+            }
+        }
+    }
+    .edit-card-actions {
+        width: 165px;
+        .action-btn {
+            position: relative;
+            background: rgba(0, 0, 0, .6);
+            border-radius: 3px;
+            clear: both;
+            color: #e6e6e6;
+            display: block;
+            width: fit-content;
+            max-width: 149px;
+            height: 31px;
+            text-align: left;
+            margin: 0 0 4px 8px;
+            padding: 6px 12px 6px 8px;
+            text-decoration: none;
+            font-size: 14px;
+            img {
+                height: 15px;
+                width: 15px;
+                align-self: center;
+                margin-inline-end: 4px;
+            }
+            &.no-popup {
+                transition: transform 85ms ease-in;
+                &:hover {
+                    background: rgba(0, 0, 0, .8);
+                    color: #fff;
+                    transform: translateX(5px);
+                }
+            }
+        }
+    }
+    .mini-preview {
+        .label {
+            display: flex;
+            justify-content: flex-start;
+            min-height: 8px;
+            width: 40px;
+            border-radius: 4px;
+            margin-inline-end: 4px;
+            margin-block-end: 4px;
+        }
+    }
+    .title-edit {
+        background-color: #fff;
+        width: 280px;
+        padding: 6px 8px 2px;
+        border-radius: 3px;
+        textarea {
+            border: none;
+            overflow: hidden;
+            overflow-wrap: break-word;
+            resize: none;
+            height: 90px;
+            width: 100%;
+            outline: none;
+            font-family: 'Segoe UI', Helvetica, mont, Calibri, sans-serif;
+        }
+        .icons {
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            padding: 0 5px 3px;
+            .description-icon img {
+                width: 13px;
+            }
+            fa-paperclip {
+                padding: 0;
+            }
+            .checklist-icon {
+                &.complete {
+                    background-color: #5aac44;
+                    color: white;
+                    height: 24px;
+                    padding: 6px;
+                    /* align-self: center; */
+                    display: flex;
+                    align-items: center;
+                    font-size: 12px;
+                    .gcheck path {
+                        fill: white;
+                    }
+                }
+                img {
+                    width: 13px;
+                }
+            }
+            .comments-icon {
+                width: 26px;
+            }
+            i {
+                margin-inline-end: 5px;
+                padding: 6px;
+                border-radius: 5px;
+                span {
+                    font-family: 'Segoe UI', Helvetica, mont, Calibri, sans-serif;
+                    letter-spacing: normal;
+                }
+            }
+            .members-container {
+                flex: 1;
+                justify-content: flex-end;
+                .card-members {
+                    margin: 0 -2px 0;
+                    border-radius: 50%;
+                    box-shadow: 0 0 2px 0.5px rgba(255, 255, 255, 0.6);
+                }
+            }
+            >* {
+                font-size: 0.8em;
+                align-self: center;
+                color: rgb(71, 71, 71);
+                margin: 0 2px;
+                margin-block-end: 5px;
+            }
+        }
+    }
+    .edit-title-btn {
+        font-size: 14px;
+        margin-block-start: 15px;
+        background-color: #5aac44;
+        box-shadow: none;
+        border: none;
+        color: #fff;
+        height: 32px;
+        width: 73px;
+        border-radius: 3px;
+    }
+    .el-input__inner,
+    .block .date-picker,
+    i.el-input__icon.el-icon-time {
+        opacity: 0;
+        height: 0;
+    }
+}

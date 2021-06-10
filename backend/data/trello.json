@@ -1,0 +1,1106 @@
+<<<<<<< HEAD
+{
+  "board": [
+    {
+      "_id": "b101",
+      "title": "Robot dev proj",
+      "byMember": {
+        "_id": "u101",
+        "username": "Abi Abambi",
+        "imgUrl": "http://some-img"
+      },
+      "isPrivate": true,
+      "style": {
+        "background": "#eee"
+      },
+      "members": [
+        {
+<<<<<<< HEAD
+            "_id": ObjectId("5fbf6cd6d3abfd1c71260ce9"),
+            "title": "Robot dev proj2s",
+            "byMember": {
+                "_id": "5fbf86d0d3abfd1c71260ceb",
+                "username": "Abi Abambi",
+                "imgUrl": "http://some-img"
+            },
+            "isPrivate": true,
+            "style": {
+                "background": "#eee"
+=======
+          "_id": "u101",
+          "username": "Abi Abambi",
+          "imgUrl": "http://some-img"
+        },
+        {
+          "_id": "u102",
+          "username": "Tal Tarablus",
+          "imgUrl": "https://www.google.com"
+        },
+        {
+          "_id": "u120",
+          "username": "Muki Dalumi",
+          "imgUrl": "https://www.google.com"
+        },
+        {
+          "_id": "u122",
+          "username": "Dupi Lupi",
+          "imgUrl": "https://www.google.com"
+        }
+      ],
+      "groups": [
+        {
+          "id": "l102",
+          "title": "TODOS",
+          "cards": [
+            {
+              "id": "c104",
+              "title": "board list",
+              "description": "description",
+              "comments": [
+                {
+                  "id": "ZdPnm",
+                  "txt": "a comment",
+                  "createdAt": 1590999817436,
+                  "byMember": {
+                    "_id": "u101",
+                    "username": "Tal Tarablus",
+                    "imgUrl": "http://res.cloudinary.com/shaishar9/image/upload/v1590850482/j1glw3c9jsoz2py0miol.jpg"
+                  }
+                }
+              ],
+              "checklists": [
+                {
+                  "id": "YEhmF",
+                  "title": "Checklist",
+                  "todos": [
+                    {
+                      "id": "212jX",
+                      "title": "To Do 1",
+                      "isDone": false
+                    }
+                  ]
+                }
+              ],
+              "members": [
+                {
+                  "_id": "u101",
+                  "username": "Tal Tarablus",
+                  "imgUrl": "http://res.cloudinary.com/shaishar9/image/upload/v1590850482/j1glw3c9jsoz2py0miol.jpg"
+                }
+              ],
+              "labels": [
+                {
+                  "id": "101",
+                  "title": "done",
+                  "color": "#61bd4f"
+                }
+              ],
+              "createdAt": 1590999730348,
+              "dueDate": 16156215211,
+              "byMember": {
+                "_id": "u101",
+                "username": "Tal Tarablus",
+                "imgUrl": "http://res.cloudinary.com/shaishar9/image/upload/v1590850482/j1glw3c9jsoz2py0miol.jpg"
+              },
+              "style": {
+                "headerColor": "#26de81"
+              },
+              "attachments": [
+                {
+                  "url": "https://i.guim.co.uk/img/media/684c9d087dab923db1ce4057903f03293b07deac/205_132_1915_1150/master/1915.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=14a95b5026c1567b823629ba35c40aa0"
+                }
+              ]
+>>>>>>> 4fde046fe66f023286832024de826421179206d9
+            },
+            {
+              "id": "c105",
+              "title": "home page",
+              "description": "description",
+              "comments": [
+                {
+<<<<<<< HEAD
+                    "_id": "5fbf86d0d3abfd1c71260ceb",
+                    "username": "Abi Abambi",
+                    "imgUrl": "http://some-img"
+                },
+                {
+                    "_id": "5fbf86d0d3abfd1c71260cec",
+                    "username": "Dadi Gamadi",
+                    "imgUrl": "http://some-img.jpg"
+                }
+            ],
+            "groups": [
+                {
+                    "id": "g102",
+                    "title": "TODOS",
+                    "cards": [
+                        {
+                            "id": "c101",
+                            "title": "card-details",
+                            "description": "We are awesome!!ssss",
+                            "comments": [
+                                {
+                                    "id": "ZdPnm",
+                                    "txt": "a comment",
+                                    "createdAt": 1590999817436.0,
+                                    "byMember": {
+                                        "_id": "5fbf86d0d3abfd1c71260ceb",
+                                        "username": "Abi Abambi",
+                                        "imgUrl": "http://some-img"
+                                    }
+                                }
+                            ],
+                            "checklists": [
+                                {
+                                    "id": "YEhmF",
+                                    "title": "Checklist",
+                                    "todos": [
+                                        {
+                                            "id": "212jX",
+                                            "title": "To Do 1",
+                                            "isDone": false
+                                        }
+                                    ]
+                                }
+                            ],
+                            "members": [
+                                {
+                                    "_id": "5fbf86d0d3abfd1c71260ceb",
+                                    "username": "Abi Abambi",
+                                    "imgUrl": "http://some-img"
+                                }
+                            ],
+                            "labels": [
+                                {
+                                    "id": "101",
+                                    "title": "done",
+                                    "color": "#61bd4f"
+                                }
+                            ],
+                            "createdAt": 1590999730348.0,
+                            "dueDate": 16156215211.0,
+                            "byMember": {
+                                "_id": "5fbf86d0d3abfd1c71260ceb",
+                                "username": "Abi Abambi",
+                                "imgUrl": "http://some-img"
+                            },
+                            "style": {
+                                "headerColor": "#26de81"
+                            },
+                            "attachments": [
+                                {
+                                    "url": "https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=1600&h=1067&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2019%2F08%2Fcorgi-dog-name-POPDOGS0819.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "c116",
+                            "title": "board-header",
+                            "description": "description",
+                            "comments": [
+                                {
+                                    "id": "ZdPnm",
+                                    "txt": "a comment",
+                                    "createdAt": 1590999817436.0,
+                                    "byMember": {
+                                        "_id": "5fbf86d0d3abfd1c71260ceb",
+                                        "username": "Abi Abambi",
+                                        "imgUrl": "http://some-img"
+                                    }
+                                }
+                            ],
+                            "checklists": [
+                                {
+                                    "id": "YEhmF",
+                                    "title": "Checklist",
+                                    "todos": [
+                                        {
+                                            "id": "212jX",
+                                            "title": "To Do 1",
+                                            "isDone": false
+                                        }
+                                    ]
+                                }
+                            ],
+                            "members": [
+                                {
+                                    "_id": "5fbf86d0d3abfd1c71260ceb",
+                                    "username": "Abi Abambi",
+                                    "imgUrl": "http://some-img"
+                                }
+                            ],
+                            "labels": [
+                                {
+                                    "id": "101",
+                                    "title": "done",
+                                    "color": "#61bd4f"
+                                }
+                            ],
+                            "createdAt": 1590999730348.0,
+                            "dueDate": 16156215211.0,
+                            "byMember": {
+                                "_id": "5fbf86d0d3abfd1c71260ceb",
+                                "username": "Abi Abambi",
+                                "imgUrl": "http://some-img"
+                            },
+                            "style": {
+                                "headerColor": "#26de81"
+                            },
+                            "attachments": [
+                                {
+                                    "url": "https://static.toiimg.com/thumb/msid-60132235,imgsize-169468,width-800,height-600,resizemode-75/60132235.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m9qgrHSAgu",
+                            "title": "Sup",
+                            "description": "Wasssaaaaappppppp",
+                            "createdAt": "",
+                            "byMember": "",
+                            "style": {
+                                "headerColor": "#ffffff"
+                            }
+                        },
+                        {
+                            "id": "c105",
+                            "title": "home page",
+                            "description": "description",
+                            "comments": [
+                                {
+                                    "id": "ZdPnm",
+                                    "txt": "a comment",
+                                    "createdAt": 1590999817436.0,
+                                    "byMember": {
+                                        "_id": "5fbf86d0d3abfd1c71260ceb",
+                                        "username": "Abi Abambi",
+                                        "imgUrl": "http://some-img"
+                                    }
+                                }
+                            ],
+                            "checklists": [
+                                {
+                                    "id": "YEhmF",
+                                    "title": "Checklist",
+                                    "todos": [
+                                        {
+                                            "id": "212jX",
+                                            "title": "To Do 1",
+                                            "isDone": false
+                                        }
+                                    ]
+                                }
+                            ],
+                            "members": [
+                                {
+                                    "_id": "5fbf86d0d3abfd1c71260ceb",
+                                    "username": "Abi Abambi",
+                                    "imgUrl": "http://some-img"
+                                }
+                            ],
+                            "labels": [
+                                {
+                                    "id": "101",
+                                    "title": "done",
+                                    "color": "#61bd4f"
+                                }
+                            ],
+                            "createdAt": 1590999730348.0,
+                            "dueDate": 16156215211.0,
+                            "byMember": {
+                                "_id": "5fbf86d0d3abfd1c71260ceb",
+                                "username": "Abi Abambi",
+                                "imgUrl": "http://some-img"
+                            },
+                            "style": {
+                                "headerColor": "#26de81"
+                            },
+                            "attachments": [
+                                {
+                                    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4GCtZMzmnVwuqdgNzniwrRQhYuPHXziD8TQ&usqp=CAU"
+                                }
+                            ]
+                        }
+                    ],
+                    "style": {
+                        "headerColor": "http://some-img"
+                    }
+                },
+                {
+                    "id": "l103",
+                    "title": "IN PROGRESS",
+                    "cards": [
+                        {
+                            "id": "c106",
+                            "title": "board-detailsss",
+                            "description": "Hahahaaa",
+                            "comments": [
+                                {
+                                    "id": "ZdPnm",
+                                    "txt": "a comment",
+                                    "createdAt": 1590999817436.0,
+                                    "byMember": {
+                                        "_id": "5fbf86d0d3abfd1c71260ceb",
+                                        "username": "Abi Abambi",
+                                        "imgUrl": "http://some-img"
+                                    }
+                                }
+                            ],
+                            "checklists": [
+                                {
+                                    "id": "YEhmF",
+                                    "title": "Checklist",
+                                    "todos": [
+                                        {
+                                            "id": "212jX",
+                                            "title": "To Do 1",
+                                            "isDone": false
+                                        }
+                                    ]
+                                }
+                            ],
+                            "members": [
+                                {
+                                    "_id": "5fbf86d0d3abfd1c71260ceb",
+                                    "username": "Abi Abambi",
+                                    "imgUrl": "http://some-img"
+                                }
+                            ],
+                            "labels": [
+                                {
+                                    "id": "101",
+                                    "title": "done",
+                                    "color": "#61bd4f"
+                                }
+                            ],
+                            "createdAt": 1590999730348.0,
+                            "dueDate": 16156215211.0,
+                            "byMember": {
+                                "_id": "5fbf86d0d3abfd1c71260ceb",
+                                "username": "Abi Abambi",
+                                "imgUrl": "http://some-img"
+                            },
+                            "style": {
+                                "headerColor": "#26de81"
+                            },
+                            "attachments": [
+                                {
+                                    "url": "https://www.thesprucepets.com/thmb/sfuyyLvyUx636_Oq3Fw5_mt-PIc=/3760x2820/smart/filters:no_upscale()/adorable-white-pomeranian-puppy-spitz-921029690-5c8be25d46e0fb000172effe.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "c104",
+                            "title": "board list",
+                            "description": "description",
+                            "comments": [
+                                {
+                                    "id": "ZdPnm",
+                                    "txt": "a comment",
+                                    "createdAt": 1590999817436.0,
+                                    "byMember": {
+                                        "_id": "5fbf86d0d3abfd1c71260ceb",
+                                        "username": "Abi Abambi",
+                                        "imgUrl": "http://some-img"
+                                    }
+                                }
+                            ],
+                            "checklists": [
+                                {
+                                    "id": "YEhmF",
+                                    "title": "Checklist",
+                                    "todos": [
+                                        {
+                                            "id": "212jX",
+                                            "title": "To Do 1",
+                                            "isDone": false
+                                        }
+                                    ]
+                                }
+                            ],
+                            "members": [
+                                {
+                                    "_id": "5fbf86d0d3abfd1c71260ceb",
+                                    "username": "Abi Abambi",
+                                    "imgUrl": "http://some-img"
+                                }
+                            ],
+                            "labels": [
+                                {
+                                    "id": "101",
+                                    "title": "done",
+                                    "color": "#61bd4f"
+                                }
+                            ],
+                            "createdAt": 1590999730348.0,
+                            "dueDate": 16156215211.0,
+                            "byMember": {
+                                "_id": "5fbf86d0d3abfd1c71260ceb",
+                                "username": "Abi Abambi",
+                                "imgUrl": "http://some-img"
+                            },
+                            "style": {
+                                "headerColor": "#26de81"
+                            },
+                            "attachments": [
+                                {
+                                    "url": "https://i.guim.co.uk/img/media/684c9d087dab923db1ce4057903f03293b07deac/205_132_1915_1150/master/1915.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=14a95b5026c1567b823629ba35c40aa0"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "MOB0sGNhUX",
+                            "title": "g",
+                            "description": "",
+                            "createdAt": 1606386751177.0,
+                            "byMember": {
+                                "_id": "5fbf86d0d3abfd1c71260ceb",
+                                "username": "Abi Abambi",
+                                "imgUrl": "http://some-img"
+                            },
+                            "style": {
+                                "headerColor": "#ffffff"
+                            }
+                        }
+                    ],
+                    "style": {
+                        "headerColor": "http://some-img"
+=======
+                  "id": "ZdPnm",
+                  "txt": "a comment",
+                  "createdAt": 1590999817436,
+                  "byMember": {
+                    "_id": "u101",
+                    "username": "Tal Tarablus",
+                    "imgUrl": "http://res.cloudinary.com/shaishar9/image/upload/v1590850482/j1glw3c9jsoz2py0miol.jpg"
+                  }
+                }
+              ],
+              "checklists": [
+                {
+                  "id": "YEhmF",
+                  "title": "Checklist",
+                  "todos": [
+                    {
+                      "id": "212jX",
+                      "title": "To Do 1",
+                      "isDone": false
+                    }
+                  ]
+                }
+              ],
+              "members": [
+                {
+                  "_id": "u101",
+                  "username": "Tal Tarablus",
+                  "imgUrl": "http://res.cloudinary.com/shaishar9/image/upload/v1590850482/j1glw3c9jsoz2py0miol.jpg"
+                }
+              ],
+              "labels": [
+                {
+                  "id": "101",
+                  "title": "done",
+                  "color": "#61bd4f"
+                }
+              ],
+              "createdAt": 1590999730348,
+              "dueDate": 16156215211,
+              "byMember": {
+                "_id": "u101",
+                "username": "Tal Tarablus",
+                "imgUrl": "http://res.cloudinary.com/shaishar9/image/upload/v1590850482/j1glw3c9jsoz2py0miol.jpg"
+              },
+              "style": {
+                "headerColor": "#26de81"
+              },
+              "attachments": [
+                {
+                  "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4GCtZMzmnVwuqdgNzniwrRQhYuPHXziD8TQ&usqp=CAU"
+                }
+              ]
+            },
+            {
+              "id": "c116",
+              "title": "board-header",
+              "description": "description",
+              "comments": [
+                {
+                  "id": "ZdPnm",
+                  "txt": "a comment",
+                  "createdAt": 1590999817436,
+                  "byMember": {
+                    "_id": "u101",
+                    "username": "Tal Tarablus",
+                    "imgUrl": "http://res.cloudinary.com/shaishar9/image/upload/v1590850482/j1glw3c9jsoz2py0miol.jpg"
+                  }
+                }
+              ],
+              "checklists": [
+                {
+                  "id": "YEhmF",
+                  "title": "Checklist",
+                  "todos": [
+                    {
+                      "id": "212jX",
+                      "title": "To Do 1",
+                      "isDone": false
+>>>>>>> 4fde046fe66f023286832024de826421179206d9
+                    }
+                  ]
+                }
+              ],
+              "members": [
+                {
+                  "_id": "u101",
+                  "username": "Tal Tarablus",
+                  "imgUrl": "http://res.cloudinary.com/shaishar9/image/upload/v1590850482/j1glw3c9jsoz2py0miol.jpg"
+                }
+              ],
+              "labels": [
+                {
+                  "id": "101",
+                  "title": "done",
+                  "color": "#61bd4f"
+                }
+<<<<<<< HEAD
+            ],
+            "activities": [
+                {
+                    "id": "a101",
+                    "txt": "Changed Color",
+                    "createdAt": 154514,
+                    "byMember": {
+                        "_id": "5fbf86d0d3abfd1c71260ceb",
+                        "username": "Abi Abambi",
+                        "imgUrl": "http://some-img"
+                    },
+                    "card": {
+                        "id": "c101",
+                        "title": "find a logo",
+                        "url": "http://awesomeApp/board/id/card/id"
+=======
+              ],
+              "createdAt": 1590999730348,
+              "dueDate": 16156215211,
+              "byMember": {
+                "_id": "u101",
+                "username": "Tal Tarablus",
+                "imgUrl": "http://res.cloudinary.com/shaishar9/image/upload/v1590850482/j1glw3c9jsoz2py0miol.jpg"
+              },
+              "style": {
+                "headerColor": "#26de81"
+              },
+              "attachments": [
+                {
+                  "url": "https://static.toiimg.com/thumb/msid-60132235,imgsize-169468,width-800,height-600,resizemode-75/60132235.jpg"
+                }
+              ]
+            },
+            {
+              "id": "c101",
+              "title": "card-details",
+              "description": "We are awesome!!ssss",
+              "comments": [
+                {
+                  "id": "ZdPnm",
+                  "txt": "a comment",
+                  "createdAt": 1590999817436,
+                  "byMember": {
+                    "_id": "u101",
+                    "username": "Tal Tarablus",
+                    "imgUrl": "http://res.cloudinary.com/shaishar9/image/upload/v1590850482/j1glw3c9jsoz2py0miol.jpg"
+                  }
+                }
+              ],
+              "checklists": [
+                {
+                  "id": "YEhmF",
+                  "title": "Checklist",
+                  "todos": [
+                    {
+                      "id": "212jX",
+                      "title": "To Do 1",
+                      "isDone": false
+>>>>>>> 4fde046fe66f023286832024de826421179206d9
+                    }
+                  ]
+                }
+              ],
+              "members": [
+                {
+                  "_id": "u101",
+                  "username": "Tal Tarablus",
+                  "imgUrl": "http://res.cloudinary.com/shaishar9/image/upload/v1590850482/j1glw3c9jsoz2py0miol.jpg"
+                }
+              ],
+              "labels": [
+                {
+                  "id": "101",
+                  "title": "done",
+                  "color": "#61bd4f"
+                }
+              ],
+              "createdAt": 1590999730348,
+              "dueDate": 16156215211,
+              "byMember": {
+                "_id": "u101",
+                "username": "Tal Tarablus",
+                "imgUrl": "http://res.cloudinary.com/shaishar9/image/upload/v1590850482/j1glw3c9jsoz2py0miol.jpg"
+              },
+              "style": {
+                "headerColor": "#26de81"
+              },
+              "attachments": [
+                {
+                  "url": "https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=1600&h=1067&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2019%2F08%2Fcorgi-dog-name-POPDOGS0819.jpg"
+                }
+              ]
+            }
+          ],
+          "style": {
+            "headerColor": "http://some-img"
+          }
+        },
+        {
+<<<<<<< HEAD
+            "_id": ObjectId("5fbf6cd6d3abfd1c71260cea"),
+            "title": "Happy",
+            "byMember": {
+                "_id": "5fbf86d0d3abfd1c71260cec",
+                "username": "Dadi Gamadi",
+                "imgUrl": "http://some-img.jpg"
+            },
+            "isPrivate": true,
+            "style": {
+                "background": "#eee"
+            },
+            "members": [
+                {
+                    "_id": "5fbf86d0d3abfd1c71260cec",
+                    "username": "Dadi Gamadi",
+                    "imgUrl": "http://some-img.jpg"
+                }
+            ],
+            "groups": [
+                {
+                    "id": "l106",
+                    "title": "Birthday",
+                    "cards": [
+                        {
+                            "id": "c109",
+                            "title": "drag & drop",
+                            "description": "description",
+                            "comments": [
+                                {
+                                    "id": "ZdPnm",
+                                    "txt": "a comment",
+                                    "createdAt": 1590999817436.0,
+                                    "byMember": {
+                                        "_id": "5fbf86d0d3abfd1c71260cec",
+                                        "username": "Dadi Gamadi",
+                                        "imgUrl": "http://some-img.jpg"
+                                    }
+                                }
+                            ],
+                            "checklists": [
+                                {
+                                    "id": "YEhmF",
+                                    "title": "Checklist",
+                                    "todos": [
+                                        {
+                                            "id": "212jX",
+                                            "title": "To Do 1",
+                                            "isDone": false
+                                        }
+                                    ]
+                                }
+                            ],
+                            "members": [
+                                {
+                                    "_id": "5fbf86d0d3abfd1c71260cec",
+                                    "username": "Dadi Gamadi",
+                                    "imgUrl": "http://some-img.jpg"
+                                }
+                            ],
+                            "labels": [
+                                {
+                                    "id": "101",
+                                    "title": "done",
+                                    "color": "#61bd4f"
+                                }
+                            ],
+                            "activities": [
+                                {
+                                    "id": "BM4HF",
+                                    "txt": "set card comment to a comment",
+                                    "createdAt": 1590999817436.0,
+                                    "byMember": {
+                                        "_id": "5fbf86d0d3abfd1c71260cec",
+                                        "username": "Dadi Gamadi",
+                                        "imgUrl": "http://some-img.jpg"
+                                    }
+                                }
+                            ],
+                            "createdAt": 666.0,
+                            "dueDate": 16156215211.0,
+                            "byMember": {
+                                "_id": "5fbf86d0d3abfd1c71260cec",
+                                "username": "Dadi Gamadi",
+                                "imgUrl": "http://some-img.jpg"
+                            },
+                            "style": {
+                                "headerColor": "#26de81"
+                            },
+                            "attachments": [
+                                {
+                                    "url": "https://i.guim.co.uk/img/media/684c9d087dab923db1ce4057903f03293b07deac/205_132_1915_1150/master/1915.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=14a95b5026c1567b823629ba35c40aa0"
+                                }
+                            ]
+                        }
+                    ],
+                    "style": {
+                        "headerColor": "http://some-img"
+=======
+          "id": "l103",
+          "title": "IN PROGRESS",
+          "cards": [
+            {
+              "id": "c106",
+              "title": "board-details",
+              "description": "Hahaha",
+              "comments": [
+                {
+                  "id": "ZdPnm",
+                  "txt": "a comment",
+                  "createdAt": 1590999817436,
+                  "byMember": {
+                    "_id": "u101",
+                    "username": "Tal Tarablus",
+                    "imgUrl": "http://res.cloudinary.com/shaishar9/image/upload/v1590850482/j1glw3c9jsoz2py0miol.jpg"
+                  }
+                }
+              ],
+              "checklists": [
+                {
+                  "id": "YEhmF",
+                  "title": "Checklist",
+                  "todos": [
+                    {
+                      "id": "212jX",
+                      "title": "To Do 1",
+                      "isDone": false
+>>>>>>> 4fde046fe66f023286832024de826421179206d9
+                    }
+                  ]
+                }
+              ],
+              "members": [
+                {
+                  "_id": "u101",
+                  "username": "Tal Tarablus",
+                  "imgUrl": "http://res.cloudinary.com/shaishar9/image/upload/v1590850482/j1glw3c9jsoz2py0miol.jpg"
+                }
+              ],
+              "labels": [
+                {
+                  "id": "101",
+                  "title": "done",
+                  "color": "#61bd4f"
+                }
+              ],
+              "createdAt": 1590999730348,
+              "dueDate": 16156215211,
+              "byMember": {
+                "_id": "u101",
+                "username": "Tal Tarablus",
+                "imgUrl": "http://res.cloudinary.com/shaishar9/image/upload/v1590850482/j1glw3c9jsoz2py0miol.jpg"
+              },
+              "style": {
+                "headerColor": "#26de81"
+              },
+              "attachments": [
+                {
+                  "url": "https://www.thesprucepets.com/thmb/sfuyyLvyUx636_Oq3Fw5_mt-PIc=/3760x2820/smart/filters:no_upscale()/adorable-white-pomeranian-puppy-spitz-921029690-5c8be25d46e0fb000172effe.jpg"
+                }
+<<<<<<< HEAD
+            ],
+            "activities": [
+                {
+                    "id": "a101",
+                    "txt": "Changed Color",
+                    "createdAt": 154514.0,
+                    "byMember": {
+                        "_id": "5fbf86d0d3abfd1c71260cec",
+                        "username": "Dadi Gamadi",
+                        "imgUrl": "http://some-img.jpg"
+                    },
+                    "card": {
+                        "id": "c101",
+                        "title": "find a logo",
+                        "url": "http://awesomeApp/board/id/card/id"
+=======
+              ]
+            },
+            {
+              "id": "c101",
+              "title": "card-details",
+              "description": "We are awesome!!ssss",
+              "comments": [
+                {
+                  "id": "ZdPnm",
+                  "txt": "a comment",
+                  "createdAt": 1590999817436,
+                  "byMember": {
+                    "_id": "u101",
+                    "username": "Tal Tarablus",
+                    "imgUrl": "http://res.cloudinary.com/shaishar9/image/upload/v1590850482/j1glw3c9jsoz2py0miol.jpg"
+                  }
+                }
+              ],
+              "checklists": [
+                {
+                  "id": "YEhmF",
+                  "title": "Checklist",
+                  "todos": [
+                    {
+                      "id": "212jX",
+                      "title": "To Do 1",
+                      "isDone": false
+>>>>>>> 4fde046fe66f023286832024de826421179206d9
+                    }
+                  ]
+                }
+              ],
+              "members": [
+                {
+                  "_id": "u101",
+                  "username": "Tal Tarablus",
+                  "imgUrl": "http://res.cloudinary.com/shaishar9/image/upload/v1590850482/j1glw3c9jsoz2py0miol.jpg"
+                }
+              ],
+              "labels": [
+                {
+                  "id": "101",
+                  "title": "done",
+                  "color": "#61bd4f"
+                }
+              ],
+              "createdAt": 1590999730348,
+              "dueDate": 16156215211,
+              "byMember": {
+                "_id": "u101",
+                "username": "Tal Tarablus",
+                "imgUrl": "http://res.cloudinary.com/shaishar9/image/upload/v1590850482/j1glw3c9jsoz2py0miol.jpg"
+              },
+              "style": {
+                "headerColor": "#26de81"
+              },
+              "attachments": [
+                {
+                  "url": "https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=1600&h=1067&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2019%2F08%2Fcorgi-dog-name-POPDOGS0819.jpg"
+                }
+              ]
+            },
+            {
+              "id": "m9qgrHSAgu",
+              "title": "Sup",
+              "description": "Wasssaaaaappppppp",
+              "createdAt": "",
+              "byMember": "",
+              "style": {
+                "headerColor": "#ffffff"
+              }
+            },
+            {
+              "id": "xPh8Imv6p5",
+              "title": "ssss",
+              "description": "",
+              "createdAt": 1606383974423,
+              "byMember": {
+                "_id": "sWUAaGLBqc",
+                "username": "Guest17",
+                "imgUrl": "@/assets/imgs/guest.png"
+              },
+              "style": {
+                "headerColor": "#ffffff"
+              }
+            }
+          ],
+          "style": {
+            "headerColor": "http://some-img"
+          }
+        }
+      ],
+      "activities": [
+        {
+<<<<<<< HEAD
+            "_id": ObjectId("5fbfb81d92f0553a783da34a"),
+            "email": "dadi@gamadi.com",
+            "password": "$2b$10$6qRbAlfk0n7dOHVqTtjtLuIoguosJ/zyfKf043HrywSWTPVf63g7y",
+            "username": "Dadi Gamadi"
+        },
+        {
+            "_id": ObjectId("5fbfba2192f0553a783da34d"),
+            "email": "tutti@frutti.com",
+            "password": "$2b$10$SRXVoN2tfg8FHsA46PMzOuRd24YRlCo7VSsMY0Op88cCVQ3nO6zJG",
+            "username": "Tutti Frutti"
+=======
+          "id": "a101",
+          "txt": "Changed Color",
+          "createdAt": 154514,
+          "byMember": {
+            "_id": "u101",
+            "username": "Abi Abambi",
+            "imgUrl": "http://some-img"
+          },
+          "card": {
+            "id": "c101",
+            "title": "find a logo",
+            "url": "http://awesomeApp/board/id/card/id"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "b102",
+      "title": "Happy",
+      "byMember": {
+        "_id": "u102",
+        "username": "Dadi Gamadi",
+        "imgUrl": "http://some-img"
+      },
+      "isPrivate": true,
+      "style": {
+        "background": "#eee"
+      },
+      "members": [
+        {
+          "_id": "u101",
+          "username": "Abi Abambi",
+          "imgUrl": "http://some-img"
+        },
+        {
+          "_id": "u102",
+          "username": "Dadi Gamadi",
+          "imgUrl": "https://www.google.com"
+        }
+      ],
+      "groups": [
+        {
+          "id": "l106",
+          "title": "Birthday",
+          "cards": [
+            {
+              "id": "c109",
+              "title": "drag & drop",
+              "description": "description",
+              "comments": [
+                {
+                  "id": "ZdPnm",
+                  "txt": "a comment",
+                  "createdAt": 1590999817436,
+                  "byMember": {
+                    "_id": "u101",
+                    "username": "Tal Tarablus",
+                    "imgUrl": "http://res.cloudinary.com/shaishar9/image/upload/v1590850482/j1glw3c9jsoz2py0miol.jpg"
+                  }
+                }
+              ],
+              "checklists": [
+                {
+                  "id": "YEhmF",
+                  "title": "Checklist",
+                  "todos": [
+                    {
+                      "id": "212jX",
+                      "title": "To Do 1",
+                      "isDone": false
+                    }
+                  ]
+                }
+              ],
+              "members": [
+                {
+                  "_id": "u101",
+                  "username": "Tal Tarablus",
+                  "imgUrl": "http://res.cloudinary.com/shaishar9/image/upload/v1590850482/j1glw3c9jsoz2py0miol.jpg"
+                }
+              ],
+              "labels": [
+                {
+                  "id": "101",
+                  "title": "done",
+                  "color": "#61bd4f"
+                }
+              ],
+              "activities": [
+                {
+                  "id": "BM4HF",
+                  "txt": "set card comment to a comment",
+                  "createdAt": 1590999817436,
+                  "byMember": {
+                    "_id": "u101",
+                    "username": "Tal Tarablus",
+                    "imgUrl": "http://res.cloudinary.com/shaishar9/image/upload/v1590850482/j1glw3c9jsoz2py0miol.jpg"
+                  }
+                }
+              ],
+              "createdAt": 666,
+              "dueDate": 16156215211,
+              "byMember": {
+                "_id": "u101",
+                "username": "Tal Tarablus",
+                "imgUrl": "http://res.cloudinary.com/shaishar9/image/upload/v1590850482/j1glw3c9jsoz2py0miol.jpg"
+              },
+              "style": {
+                "headerColor": "#26de81"
+              },
+              "attachments": [
+                {
+                  "url": "https://i.guim.co.uk/img/media/684c9d087dab923db1ce4057903f03293b07deac/205_132_1915_1150/master/1915.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=14a95b5026c1567b823629ba35c40aa0"
+                }
+              ]
+            }
+          ],
+          "style": {
+            "headerColor": "http://some-img"
+          }
+        }
+      ],
+      "activities": [
+        {
+          "id": "a101",
+          "txt": "Changed Color",
+          "createdAt": 154514,
+          "byMember": {
+            "_id": "u101",
+            "username": "Abi Abambi",
+            "imgUrl": "http://some-img"
+          },
+          "card": {
+            "id": "c101",
+            "title": "find a logo",
+            "url": "http://awesomeApp/board/id/card/id"
+          }
+>>>>>>> 4fde046fe66f023286832024de826421179206d9
+        }
+      ]
+    }
+  ],
+  "user": [
+    {
+      "username": "Abi Abambi",
+      "email": "abi@ababmi.com",
+      "password": "aBambi123",
+      "imgUrl": "http://some-img.jpg"
+    },
+    {
+      "username": "Dadi Gamadi",
+      "email": "dadi@gamadi.com",
+      "password": "gDadi123",
+      "imgUrl": "http://some-img.jpg"
+    }
+  ]
+}
+=======
+>>>>>>> 65d62ee2647be18c62b2feb07315ffd3e5e18dab

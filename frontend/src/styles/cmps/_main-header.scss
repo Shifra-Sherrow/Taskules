@@ -1,0 +1,164 @@
+.main-header {
+    width: 100vw;
+    display: grid;
+    padding: 0 10px;
+    grid-template-columns: repeat(3, 1fr);
+    .sm-header,
+    .sm-header-btn {
+        display: none;
+    }
+    .logo {
+        justify-content: center;
+        &-img {
+            width: 70px;
+            height: 110px;
+            transition: 0.25s;
+        }
+        &-title {
+            height: 135px;
+            width: 190px;
+            transition: 0.25s;
+        }
+        &-gif {
+            margin: -3px -4px 0 -6px;
+            width: 50px;
+            height: 50px;
+        }
+    }
+    a,
+    .logout {
+        background-color: hsla(0, 0%, 100%, .24);
+        padding: 3px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover {
+            background-color: hsla(0, 0%, 100%, .32);
+        }
+    }
+    &.home {
+        align-content: center;
+        height: 70px;
+        background-color: transparent;
+        position: fixed;
+        z-index: 110;
+        transition: 0.25s;
+        align-items: center;
+        .logo {
+            transition: 0.25s;
+            margin-block-start: 75px;
+            margin-inline-end: 33px;
+            grid-column: 2/3;
+        }
+        .user-area {
+            margin-inline-end: 10px;
+            span,
+            a {
+                background-color: rgba(206, 177, 177, 0.2);
+                &:hover {
+                    background-color: rgba(206, 177, 177, 0.3);
+                }
+            }
+        }
+        &.scrolled {
+            background-color: rgba(255, 241, 241, 1);
+            box-shadow: 0 1px 3px 0 #998a8a80;
+            .logo {
+                margin-block-start: unset;
+                &-img {
+                    width: 40px;
+                    height: 40px;
+                }
+                &-title {
+                    height: 50px;
+                    width: 125px;
+                }
+            }
+        }
+    }
+    &.app {
+        height: 50px;
+        background-color: rgba(0, 0, 0, 0.1);
+        .logo {
+            margin-block-start: unset;
+            &-img {
+                width: 40px;
+                height: 43px;
+            }
+            &-title {
+                height: 50px;
+                width: 125px;
+            }
+        }
+        >* {
+            color: #fefefe;
+        }
+    }
+    &>* {
+        align-items: center;
+    }
+    .main-nav {
+        a {
+            margin-inline-end: 4px;
+            font-family: 'Segoe UI', Helvetica, mont, Calibri, sans-serif;
+            letter-spacing: normal;
+            font-weight: bold;
+        }
+    }
+    .logo {
+        span {
+            cursor: pointer;
+        }
+    }
+    .user-area {
+        justify-content: flex-end;
+        &>* {
+            margin-inline-start: 4px;
+        }
+    }
+    @media (max-width: 585px) {
+        grid-template-columns: repeat(1, 1fr);
+        z-index: 3;
+        width: 100%;
+        .user-area,
+        .main-nav {
+            display: none;
+        }
+        .sm-header-btn {
+            display: block;
+            position: absolute;
+            z-index: 10;
+            font-size: 2em;
+            right: 10px;
+            top: 10px;
+            cursor: pointer;
+            transition: .4s;
+            &.open {
+                position: fixed;
+                transform: rotate(-90deg);
+            }
+        }
+        .sm-header {
+            display: unset;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #e6d4d4;
+            z-index: 2;
+            padding: 50px 30px;
+            .nav-link {
+                display: block;
+                text-align: center;
+                margin: 30px 15px;
+                font-size: 2.5em;
+                padding: 10px;
+                background-color: rgba(0, 0, 0, 0.1);
+                border-radius: 3px;
+                &:hover {
+                    background-color: rgba(0, 0, 0, 0.15);
+                }
+            }
+        }
+    }
+}

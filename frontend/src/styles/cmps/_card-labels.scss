@@ -1,0 +1,47 @@
+.label-list {
+    button.label-edit {
+        background-color: transparent;
+        border-radius: 3px;
+        img {
+            margin: 0;
+        }
+        &:hover {
+            background-color: rgba(9, 30, 66, .08);
+        }
+    }
+    .label {
+        height: 32px;
+        width: 240px;
+        padding: 6px 12px;
+        border-radius: 3px;
+        margin: 3px 6px;
+        cursor: pointer;
+        color: white;
+        align-items: center;
+        transition: 75ms;
+        &.bgc {
+            @each $bgc in $labelbgcs {
+                $i: index($labelbgcs, $bgc);
+                &-#{$i}:hover {
+                    box-shadow: -8px 0 #{$bgc};
+                }
+            }
+        }
+        span {
+            align-self: center;
+            font-size: 1em;
+            font-weight: 600;
+        }
+        input {
+            align-self: center;
+            width: fit-content;
+            background-color: transparent;
+            font-size: inherit;
+            padding: 0;
+            color: white;
+            outline: none;
+            font-weight: inherit;
+            border: none;
+        }
+    }
+}

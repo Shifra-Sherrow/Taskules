@@ -1,0 +1,105 @@
+.card-checklist {
+    width: 100%;
+    .add-item-input {
+        outline-color: #0079bf;
+        font-size: 16px;
+        height: 37px;
+        width: 100%;
+        color: rgb(23, 43, 77);
+        overflow: hidden;
+        margin-block-end: 12px;
+        &::placeholder {
+            color: #838ea0;
+        }
+    }
+    .checklist-title {
+        width: 100%;
+    }
+    .show-percent {
+        margin-block-end: 5px;
+        margin-block-start: 3px;
+    }
+    .precent {
+        width: 40px;
+        font-size: .8em;
+    }
+    .my-progress {
+        margin: 6.5px 0;
+        width: calc(100% - 40px);
+        height: 10px;
+        border-radius: 10px;
+        background: #ccced3;
+    }
+    .my-bar {
+        height: 10px;
+        border-radius: 10px;
+        transition: width .8s, background-color .8s;
+    }
+    .m-btns {
+        margin-inline-start: 10px;
+        &.cancel-btn {
+            left: -8px;
+        }
+    }
+    .items-container {
+        margin-block-end: 8px;
+    }
+    .item-preview {
+        width: 100%;
+        cursor: pointer;
+        align-items: center;
+        &:hover {
+            background-color: #eaecf1;
+        }
+        button {
+            text-align: end;
+            background-color: transparent;
+            &.delete-item {
+                i {
+                    width: fit-content;
+                    opacity: 0;
+                }
+            }
+        }
+        .item-edit {
+            width: calc(100% - 32px);
+            .checkbox {
+                margin-inline-end: 5px;
+                margin-inline-start: 10px;
+                margin-block-end: 3px;
+            }
+            .el-checkbox__input.is-checked .el-checkbox__inner,
+            .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+                background-color: #0079bf;
+                border-color: #0079bf;
+            }
+            .clickable {
+                display: inline-block;
+                width: calc(100% - 33px);
+                input {
+                    outline: none;
+                    background: rgba(9, 30, 66, .04);
+                    border-color: rgba(9, 30, 66, .13);
+                    box-shadow: inset 0 0 0 1px rgba(9, 30, 66, .13);
+                    margin-bottom: 4px;
+                    font-size: 14px;
+                }
+                span {
+                    color: rgb(94, 108, 132);
+                    &.done {
+                        text-decoration: line-through;
+                    }
+                }
+            }
+        }
+        &:hover {
+            button {
+                &.delete-item {
+                    i {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}

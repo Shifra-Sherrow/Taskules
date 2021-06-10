@@ -1,0 +1,258 @@
+.board-menu {
+    position: absolute;
+    width: 339px;
+    height: calc(100vh - 50px);
+    right: 0;
+    top: 50px;
+    z-index: 2;
+    background-color: #f4f5f7;
+    box-shadow: 0 12px 24px -6px rgba(9, 30, 66, .25), 0 0 0 1px rgba(9, 30, 66, .08);
+    text-align: center;
+    font-size: 1rem;
+    color: #172b4dc7;
+    text-align: start;
+    transition: .35s ease-in-out;
+    transform: translateX(0);
+    &.isOut{
+        transform: translateX(100%);
+    }
+
+    .board-menu-header {
+        text-align: center;
+        font-size: 1em;
+        padding: 0 6px 0 12px;
+
+        h3 {
+            font-weight: 600;
+            margin: 14px 32px;
+        }
+    }
+
+    .menu-header-divider {
+        margin: 0;
+    }
+
+    .board-menu-container {
+        flex: 1 1 auto;
+        overflow: hidden;
+        // overflow-y: auto;
+        padding: 12px 6px 12px 12px;
+        width: 100%;
+        height: calc(100% - 60px);
+    }
+
+    .board-menu-nav-item {
+        border-radius: 3px;
+        display: block;
+        font-weight: 600;
+        line-height: 20px;
+        text-decoration: none;
+        padding: 6px 6px 6px 40px;
+        position: relative;
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgba(9, 30, 66, .08);
+        }
+
+        .icon {
+            height: 20px;
+            line-height: 20px;
+            width: 20px;
+            position: absolute;
+            top: 6.5px;
+            left: 12px;
+        }
+    }
+
+    hr {
+        background-color: rgba(9, 30, 66, .13);
+        border: 0;
+        margin: 16px 0;
+        padding: 0.6px;
+        width: 100%;
+    }
+
+    .menu-section-header {
+        border-radius: 3px;
+        display: block;
+        line-height: 20px;
+        padding: 6px 6px 6px 35px;
+        position: relative;
+        text-decoration: none;
+
+        .icon {
+            line-height: 20px;
+            position: absolute;
+            top: 6px;
+            left: 12px;
+        }
+    }
+
+    .filter {
+        overflow-y: auto;
+        height: 100%;
+
+        input {
+            border: 0;
+            box-shadow: inset 0 0 0 2px #dfe1e6;
+            box-sizing: border-box;
+            -webkit-appearance: none;
+            border-radius: 3px;
+            display: block;
+            line-height: 20px;
+            margin-bottom: 0;
+            padding: 8px 12px;
+            background: #fafbfc;
+            width: 100%;
+
+            &:focus {
+                background-color: #fff;
+                outline: none;
+                box-shadow: inset 0 0 0 2px #0079bf;
+            }
+        }
+
+        .filter-li {
+            border-radius: 3px;
+            display: block;
+            height: 38px;
+            line-height: 30px;
+            overflow: hidden;
+            position: relative;
+            text-overflow: ellipsis;
+            text-decoration: none;
+            white-space: nowrap;
+            padding: 4px 4px 4px 42px;
+            margin: 2px 0;
+            cursor: pointer;
+
+            &:hover {
+                background-color: rgba(9, 30, 66, 0.04);
+            }
+
+            .item {
+                left: 4px;
+                position: absolute;
+                top: 4px;
+                height: 30px;
+                width: 30px;
+                padding: 0;
+                border-radius: 4px;
+            }
+
+            .title {
+                color: #5e6c84;
+            }
+
+            .item-check {
+                font-size: em(10, 14);
+                position: absolute;
+                top: 14px;
+                right: 15px;
+                color: #66738A;
+            }
+        }
+
+    }
+
+    .btn {
+        cursor: pointer;
+        font-size: 20px;
+        position: absolute;
+        top: 12px;
+        height: 32px;
+        width: 32px;
+
+        &.close-btn {
+            right: 4px;
+            top: 15px;
+        }
+
+        &.back-btn {
+            left: 5px;
+        }
+    }
+
+
+    .activity {
+        overflow-y: auto;
+        margin-block-end: 10px;
+        padding-inline-end: 5px;
+
+    }
+
+    .bg-picker {
+        overflow-y: auto;
+        height: 100%;
+
+        .select-container {
+            margin: 8px;
+            width: 100%;
+            text-align: center;
+
+            .select {
+                background-color: #dfe1e6;
+                background-size: cover;
+                border-radius: 8px;
+                height: 96px;
+                cursor: pointer;
+
+                &.color {
+                    background-image: url(https://a.trellocdn.com/prgb/dist/images/colors@2x.864f4df15d825e89e199.jpg);
+                }
+
+                &.photo {
+                    background-image: url(https://a.trellocdn.com/prgb/dist/images/photos-thumbnail@3x.48948499e309aef794d7.jpg);
+                }
+            }
+        }
+
+        .background {
+            padding-top: 10px;
+            overflow-y: auto;
+
+            .backToBg {
+                text-align: center;
+                width: 100%;
+                cursor: pointer;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 8px;
+            }
+
+            .option {
+                height: 100px;
+                width: 150px;
+                padding: 0 4px 8px;
+                cursor: pointer;
+                border-radius: 8px;
+
+                &.bgc {
+                    margin: 4px;
+                }
+            }
+        }
+
+    }
+
+    .bgc {
+        @each $bgc in $bgcs {
+            $i: index($bgcs, $bgc);
+
+            &-#{$i} {
+                background-color: #{$bgc} !important;
+            }
+        }
+    }
+
+    @media (max-width: 585px) {
+        width: 100%;
+
+        
+    }
+}

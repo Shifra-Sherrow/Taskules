@@ -1,0 +1,64 @@
+.activity-preview {
+    font-size: em(14, 16);
+    position: relative;
+    margin-left: 40px;
+    padding: 8px 0;
+    line-height: 20px;
+
+    .desc {
+        position: relative;
+
+        .user {
+            font-weight: 600;
+        }
+
+        .card {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    }
+
+    .avatar {
+        height: 32px;
+        left: -40px;
+        position: absolute;
+        top: 8px;
+        width: 32px;
+    }
+
+    .comment-container{
+        margin: 6px 4px 4px 10px;
+        .delete-btn{
+            font-size: 0.8em;
+            margin-inline-start: 5px;
+            background-color: rgba(161, 156, 156, 0.2);
+            padding: 1px 2px;
+            border-radius: 3px;
+            cursor: pointer;
+            &:hover{
+                background-color: rgba(161, 156, 156, 0.3);
+            }
+        }
+
+    }
+    .comment {
+        background-color: #fff;
+        border-radius: 3px;
+        box-shadow: 0 1px 2px -1px rgba(9, 30, 66, .25), 0 0 0 1px rgba(9, 30, 66, .08);
+        box-sizing: border-box;
+        clear: both;
+        // display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: fit-content;
+        padding: 4px 8px;
+        max-width: 100%;
+    }
+
+    .time {
+        font-size: em(12, 14);
+        color: #55637d;
+    }
+
+
+}

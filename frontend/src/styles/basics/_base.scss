@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Segoe UI', Helvetica, mont, Calibri, sans-serif;
+    letter-spacing: normal;
+    line-height: 1.8;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: normal;
+    line-height: 1.3;
+}
+
+h1 {
+    font-size: em(66px, 16px);
+}
+
+p {
+    margin: 0 0 1em;
+    max-width: 54ch;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+button {
+    font-family: 'Segoe UI', Helvetica, mont, Calibri, sans-serif;
+    letter-spacing: normal;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 0;
+}
+
+input {
+    font-family: 'Segoe UI', Helvetica, mont, Calibri, sans-serif;
+}
+
+textarea {
+    font-family: 'Segoe UI', Helvetica, mont, Calibri, sans-serif;
+    resize: none;
+}
+
+.el-input--small .el-input__inner {
+    font-family: 'Segoe UI', Helvetica, mont, Calibri, sans-serif;
+}

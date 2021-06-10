@@ -1,0 +1,42 @@
+.card-description {
+    width: 100%;
+    pre {
+        font-family: 'Segoe UI', Helvetica, mont, Calibri, sans-serif;
+        letter-spacing: normal;
+        white-space: pre-wrap;
+        word-break: break-all;
+    }
+    .add-desc-btn,
+    textarea {
+        width: 100%;
+        padding: 8px 12px;
+        font-size: 14px;
+        line-height: 20px;
+        border-radius: 3px;
+    }
+    .add-desc-btn {
+        height: 53px;
+        display: flex;
+        color: #54637b;
+        background-color: #eaecf0;
+        margin-block-start: 12px;
+        &:hover {
+            background-color: #e2e4e9;
+        }
+    }
+    textarea {
+        height: 100px;
+        color: rgb(23, 43, 77);
+        overflow: hidden;
+        margin-block-start: 12px;
+        &::placeholder {
+            color: #838ea0;
+        }
+    }
+    pre {
+        margin: 10px 0 20px 0;
+    }
+    .edit-desc-btn {
+        margin: -5px 0 0 14px;
+    }
+}

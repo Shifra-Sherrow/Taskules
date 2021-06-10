@@ -1,0 +1,44 @@
+.board-details {
+    ::-webkit-scrollbar {
+        width: 12px;
+        height: 12px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: rgba(203, 203, 203, .25);
+        border-radius: 5px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: rgba(203, 203, 203, .6);
+    }
+
+    ::-webkit-scrollbar-track {
+        background: rgba(9, 30, 66, .08);
+        border-radius: 5px;
+    }
+}
+
+.group-container {
+
+    ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+
+
+    ::-webkit-scrollbar-thumb {
+        background: #d1d1d1;
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #b5b5b5;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #ffffff;
+        border-radius: 10px;
+        box-shadow: inset 7px 10px 12px #f0f0f0;
+    }
+}
