@@ -1,1 +1,1 @@
-The strongest task manager, TRELLO inspired.
+A powerful task manager, inspired by TRELLO.
